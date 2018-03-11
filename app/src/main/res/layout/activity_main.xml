@@ -28,10 +28,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif-smallcaps"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
-                android:text="Home Team"
+                android:text="@string/homeTeam"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -45,9 +45,10 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:paddingBottom="24dp"
-                android:text="0"
+                android:text="@string/_0"
                 android:textColor="#000000"
-                android:textSize="56sp" />
+                android:textSize="56sp"
+                tools:ignore="ObsoleteLayoutParam" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -63,7 +64,7 @@
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
                     android:onClick="addHomeStrike"
-                    android:text="Strike"
+                    android:text="@string/strike"
                     android:textSize="12sp" />
 
                 <TextView
@@ -75,7 +76,7 @@
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
                     android:paddingBottom="24dp"
-                    android:text="0"
+                    android:text="@string/_0"
                     android:textColor="#000000"
                     android:textSize="30sp" />
             </RelativeLayout>
@@ -94,11 +95,11 @@
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
                     android:onClick="addHomeBall"
-                    android:text="Ball"
+                    android:text="@string/ball"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/homeTeam_strike"
+                    android:id="@+id/homeTeam_ball"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="130dp"
@@ -106,7 +107,7 @@
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
                     android:paddingBottom="24dp"
-                    android:text="0"
+                    android:text="@string/_0"
                     android:textColor="#000000"
                     android:textSize="30sp" />
             </RelativeLayout>
@@ -125,11 +126,11 @@
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
                     android:onClick="addHomeOuts"
-                    android:text="Outs"
+                    android:text="@string/outs"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/homeTeam_strike"
+                    android:id="@+id/homeTeam_outs"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="130dp"
@@ -137,7 +138,7 @@
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
                     android:paddingBottom="24dp"
-                    android:text="0"
+                    android:text="@string/_0"
                     android:textColor="#000000"
                     android:textSize="30sp" />
             </RelativeLayout>
@@ -192,7 +193,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:paddingBottom="24dp"
-                android:text="0"
+                android:text="@string/_0"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -210,11 +211,11 @@
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
                     android:onClick="addHomeStrike"
-                    android:text="Strike"
+                    android:text="@string/strike"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/homeTeam_strike"
+                    android:id="@+id/VisitorTeam_strike"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="130dp"
@@ -222,7 +223,7 @@
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
                     android:paddingBottom="24dp"
-                    android:text="0"
+                    android:text="@string/_0"
                     android:textColor="#000000"
                     android:textSize="30sp" />
             </RelativeLayout>
@@ -240,12 +241,12 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
-                    android:onClick="addHomeBall"
-                    android:text="Ball"
+                    android:onClick="addVisitorBall"
+                    android:text="@string/ball"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/homeTeam_strike"
+                    android:id="@+id/VisitorTeam_ball"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="130dp"
@@ -253,7 +254,7 @@
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
                     android:paddingBottom="24dp"
-                    android:text="0"
+                    android:text="@string/_0"
                     android:textColor="#000000"
                     android:textSize="30sp" />
             </RelativeLayout>
@@ -271,12 +272,12 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
-                    android:onClick="addHomeOuts"
+                    android:onClick="addVisitorOuts"
                     android:text="Outs"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/homeTeam_strike"
+                    android:id="@+id/VisitorTeam_outs"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="130dp"
@@ -284,7 +285,7 @@
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
                     android:paddingBottom="24dp"
-                    android:text="0"
+                    android:text="@string/_0"
                     android:textColor="#000000"
                     android:textSize="30sp" />
             </RelativeLayout>
@@ -302,8 +303,8 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
-                    android:onClick="addHomeRunScored"
-                    android:text="Run Scored"
+                    android:onClick="addVisitorRunScored"
+                    android:text="@string/run_scored"
                     android:textSize="12sp" />
 
             </RelativeLayout>

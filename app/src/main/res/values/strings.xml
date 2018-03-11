@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Baseball Score Keeper</string>
+    <string name="homeTeam">Home Team</string>
+    <string name="strike">Strike</string>
+    <string name="_0">0</string>
+    <string name="_0">0</string>
+    <string name="ball">Ball</string>
+    <string name="_0">0</string>
+    <string name="_0">0</string>
+    <string name="outs">Outs</string>
+    <string name="_0">0</string>
+    <string name="strike">Strike</string>
+    <string name="_0">0</string>
+    <string name="ball">Ball</string>
+    <string name="_0">0</string>
+    <string name="_0">0</string>
+    <string name="run_scored">Run Scored</string>
 </resources>

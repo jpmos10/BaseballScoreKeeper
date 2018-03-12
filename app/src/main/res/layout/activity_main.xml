@@ -157,7 +157,7 @@
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
                     android:onClick="addHomeRunScored"
-                    android:text="Run Scored"
+                    android:text="@string/run_scored"
                     android:textSize="12sp" />
 
             </RelativeLayout>
@@ -187,7 +187,7 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/visitorTeam_score"
+                android:id="@+id/visitingTeam_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
@@ -210,12 +210,12 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
-                    android:onClick="addHomeStrike"
+                    android:onClick="addVisitingStrike"
                     android:text="@string/strike"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/VisitorTeam_strike"
+                    android:id="@+id/VisitingTeam_strike"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="130dp"
@@ -241,12 +241,12 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
-                    android:onClick="addVisitorBall"
+                    android:onClick="addVisitingBall"
                     android:text="@string/ball"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/VisitorTeam_ball"
+                    android:id="@+id/VisitingTeam_ball"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="130dp"
@@ -272,12 +272,12 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
-                    android:onClick="addVisitorOuts"
+                    android:onClick="addVisitingOuts"
                     android:text="Outs"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/VisitorTeam_outs"
+                    android:id="@+id/VisitingTeam_outs"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="130dp"
@@ -303,7 +303,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="65dp"
                     android:padding="4dip"
-                    android:onClick="addVisitorRunScored"
+                    android:onClick="addVisitingRunScored"
                     android:text="@string/run_scored"
                     android:textSize="12sp" />
 
